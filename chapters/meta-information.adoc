@@ -84,12 +84,10 @@ specification and must conform to the following specification:
 ----
 
 *Note*: The API identifier must be applied consistently to all created API
-specification versions describing the same API. This explicitly covers all
-applications and deployments as well as compatible and incompatible changes
-of the API that are noticeable addressing the same purpose and consumer group.
-It is responsibility of the API owner to ensure that the application of the
-API identifier together with the semantic API <<116,version>> reflect the
-expected API history.
+specification versions neglecting all deployment specific differences, such as
+hostnames and permissions (scopes). It is responsibility of the API owner to
+ensure that the application of the API identifier together with the semantic
+API <<116,version>> reflect the expected API history.
 
 While it is nice to use human readable API identifiers based on self-managed
 URNs, it is recommend to stick to UUIDs to relief API designers from any urge
